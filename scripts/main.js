@@ -76,7 +76,8 @@ PageScript.prototype.onSelectOrganik = function() {
 	let safazot = parseFloat(this.bitkiData[this.organikSelect.val()]);
 	for(let i=0;i<this.gubre.length-1; i++) {
 		let katsayi = parseFloat(this.gubre[i][1])
-		this.sonucBox.append(this.gubre[i][0] + " : " + safazot*katsayi + "kg / 1 dekar (1 dönüm) arazi<br><br>");
+		let final = Math.round(safazot*katsayi*100)/100
+		this.sonucBox.append(this.gubre[i][0] + " : " + final + "kg / 1 dekar (1 dönüm) arazi<br><br>");
 	}
 }
 
