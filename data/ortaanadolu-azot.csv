@@ -1,23 +1,23 @@
-Buğday ,Sulu ,16,15,14,12
-Buğday ,Kuru ,9,8,7,5
-Arpa ,Sulu ,15,14,13,11
-Arpa ,Kuru ,8,7,6,5
-Mısır  ,Sulu ,17,16,14,10
-Çeltik  ,Sulu ,19,18,16,12
-Ayçiçeği  ,Sulu ,14,13,12,10
-Patates  ,Sulu ,16,16,14,12
-Ş. Pancarı  ,Sulu ,15,14,12,10
-Bağ ,Sulu ,15,13,12,11
-Bağ ,Kuru ,10,8,7,6
-Meyve ,Sulu ,10,9,7,6
-Sebze ,Sulu ,15,14,13,11
-Kavak ,Sulu ,14,13,12,10
-Bostan ,Sulu ,13,10,9,6
-Bostan ,Kuru ,7,6,5,3
-Kuru soğan ,Sulu ,14,13,12,10
-Sarımsak ,Sulu ,13,12,10,9
-Kanola ,Kuru ,9,8,7,4
-Haşhaş ,Sulu ,8,7,6,5
-Havuç ,Sulu ,19,18,17,14
-Kimyon ,Kuru ,11,10,9,7
-Susam ,Kuru ,6,5,4,3
+Buğday(Sulu) ,16,15,14,12
+Buğday(Kuru) ,9,8,7,5
+Arpa(Sulu) ,15,14,13,11
+Arpa(Kuru) ,8,7,6,5
+Mısır(Sulu) ,17,16,14,10
+Çeltik(Sulu) ,19,18,16,12
+Ayçiçeği(Sulu) ,14,13,12,10
+Patates(Sulu) ,16,16,14,12
+Ş. Pancarı(Sulu) ,15,14,12,10
+Bağ(Sulu) ,15,13,12,11
+Bağ(Kuru) ,10,8,7,6
+Meyve(Sulu) ,10,9,7,6
+Sebze(Sulu) ,15,14,13,11
+Kavak(Sulu) ,14,13,12,10
+Bostan(Sulu) ,13,10,9,6
+Bostan(Kuru) ,7,6,5,3
+Kuru soğan(Sulu) ,14,13,12,10
+Sarımsak(Sulu) ,13,12,10,9
+Kanola(Kuru) ,9,8,7,4
+Haşhaş(Sulu) ,8,7,6,5
+Havuç(Sulu) ,19,18,17,14
+Kimyon(Kuru) ,11,10,9,7
+Susam(Kuru) ,6,5,4,3
