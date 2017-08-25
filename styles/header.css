@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.show-500{
+  display: none !important;
+}
+.oluf-mobile-title {
+  display: none !important;
+}
+
+
+.oluf-logo-image {
+  height: 50px;
+}
+
+
+.oluf-header {
+  overflow: visible;
+  background-color: white;
+}
+
+  .oluf-header .material-icons {
+    color: #ffffff !important;
+  }
+
+  .oluf-header .mdl-navigation__link {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .oluf-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    order: 1;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .oluf-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    justify-content: flex-end;
+  }
+
+  .ana{
+    display: none;
+  }
+
+  .oluf-search-box.is-focused + .oluf-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+
+  .oluf-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+    .oluf-navigation .mdl-navigation__link:hover {
+      border-bottom: 4px solid #8bc34a;
+    }
+
+  .oluf-account-button {
+    order: 3;
+    display: none;
+  }
+
+
+.oluf-drawer {
+  border-right: none;
+}
+
+  .oluf-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+  .oluf-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+
+  .oluf-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #8bc34a;
+  }
+
+  .oluf-drawer .mdl-layout-title {
+    position: relative;
+    background: #6ab344;
+    height: 160px;
+  }
+
+    .oluf-drawer .oluf-logo-image {
+      position: absolute;
+      bottom: 16px;
+    }
+
+  .oluf-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+  }
+
+  .oluf-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+.user-card{
+  min-height: 0;
+  min-width: 0;
+  position:absolute;
+  top: 80px;
+  right:20px;
+  display:none;
+  border: 1px solid #bdbdbd
+}  
+
+  .user-card .mdl-card__supporting-text .mdl-cell--4-col{
+    margin-left: 4px;
+    width: calc(33.3333333333% - 16px);
+  }
+  .user-card .mdl-card__supporting-text .mdl-cell--8-col{
+    margin-left: 12px;
+    width: calc(66.6666666666% - 16px);
+  }
+  .user-card .mdl-card__supporting-text #user-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+  }
+  .user-card .mdl-card__supporting-text #user-role{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #666666;
+  }
+  .user-card .mdl-card__supporting-text #user-role{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #666666;
+  }
+  .user-card .mdl-card__supporting-text #user-card-pic{
+    width:100%;
+    height:auto; 
+    background-size: 100%;
+  }
+
+  .user-card .mdl-card__actions{
+    bottom: 0px;
+  }
+  .oluf-sign-out-button{
+    border: 1px solid #bdbdbd;
+  }
+  .user-card-cone {
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 8.33333px;
+    border-left-color: transparent;
+    border-left-style: dashed;
+    border-left-width: 8.33333px;
+    border-right-color: transparent;
+    border-right-style: dashed;
+    border-right-width: 8.33333px;
+    border-top-color: transparent;
+    border-top-style: dashed;
+    border-top-width: 0px;
+    color: rgb(34, 34, 34);
+    display: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    height: 0px;
+    right: 48px;
+    line-height: 16.6667px;
+    position: absolute;
+    text-align: left;
+    top: 73px;
+    white-space: nowrap;
+    width: 0px;
+    z-index: 1;
+  }
+
+
+
+/**** Mobile layout ****/
+@media (max-width: 1024px) {
+  .mdl-layout__header-row {
+    padding-left: 18px;
+  }
+
+  .oluf-title .oluf-logo-image{
+    height: 40px;
+  }
+
+  .user-card {
+    min-width: 0;
+    width: 80%; 
+    max-width: 330px;
+  }
+
+  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+  .oluf.oluf-search-box.is-focused ~ .oluf-mobile-title,
+  .oluf-search-box.is-focused + .oluf-navigation-container + .oluf-mobile-title {
+    opacity: 0;
+  }
+
+  .oluf-account-button {
+    display: none;
+  }
+
+  .oluf-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+}
+
+@media(max-width: 600px){
+  .mdl-layout__header-row {
+    padding-left: 8px;
+  }
+  .hide-500{
+    display:none !important;
+  }
+  .show-500{
+    display:inline-block !important;
+  }
+  .ana{
+    display: inline-block !important;
+  }
+  .ana-sayfa{
+    display: none !important;
+  }
+  .oluf-navigation .mdl-navigation__link {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
