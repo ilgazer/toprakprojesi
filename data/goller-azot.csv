@@ -1,27 +1,27 @@
-﻿Buğday(Sulu) ,17,16,15,12
-Buğday(Kuru) ,10,9,8,8
-Arpa(Sulu) ,9,8,7,6
-Arpa(Kuru) ,10,9,8,7
-Mısır(Sulu) ,18,17,16,12
-Silajlık Mısır(Sulu) ,20,18,16,13
-Çeltik(Sulu) ,19,17,15,10
-Ayçiçeği(Sulu) ,18,13,11,10
-Patates(Sulu) ,16,15,14,10
-Patates(Kuru) ,11,10,9,7
-Ş. Pancarı(Sulu) ,18,16,14,12
-Ş. Pancarı(Kuru) ,11,10,9,8
-Bağ(Sulu) ,13,12,10,8
-Bağ(Kuru) ,10,8,7,6
-Meyve(Sulu) ,12,11,9,7
-Sebze(Sulu) ,16,15,14,10
-Nohut(Kuru) ,5,4,3,3
-Sarımsak(Sulu) ,14,13,12,10
-K. Soğan(Sulu) ,14,13,12,10
-K. Soğan(Kuru) ,10,9,8,7
-Anason(Sulu) ,9,8,7,6
-Bostan(Sulu) ,13,11,9,8
-Kimyon(Kuru) ,11,10,8,6
-Haşhaş(Sulu) ,9,8,7,6
-Gül(Sulu) ,16,12,8,4
-Çayır(Sulu) ,20,19,18,16
-Kanola(Kuru) ,10,9,8,8
+﻿Buğday(Wet) ,17,16,15,12
+Buğday(Dry) ,10,9,8,8
+Arpa(Wet) ,9,8,7,6
+Arpa(Dry) ,10,9,8,7
+Mısır(Wet) ,18,17,16,12
+Silajlık Mısır(Wet) ,20,18,16,13
+Çeltik(Wet) ,19,17,15,10
+Ayçiçeği(Wet) ,18,13,11,10
+Patates(Wet) ,16,15,14,10
+Patates(Dry) ,11,10,9,7
+Ş. Pancarı(Wet) ,18,16,14,12
+Ş. Pancarı(Dry) ,11,10,9,8
+Bağ(Wet) ,13,12,10,8
+Bağ(Dry) ,10,8,7,6
+Meyve(Wet) ,12,11,9,7
+Sebze(Wet) ,16,15,14,10
+Nohut(Dry) ,5,4,3,3
+Sarımsak(Wet) ,14,13,12,10
+K. Soğan(Wet) ,14,13,12,10
+K. Soğan(Dry) ,10,9,8,7
+Anason(Wet) ,9,8,7,6
+Orchard(Wet) ,13,11,9,8
+Kimyon(Dry) ,11,10,8,6
+Haşhaş(Wet) ,9,8,7,6
+Gül(Wet) ,16,12,8,4
+Çayır(Wet) ,20,19,18,16
+Kanola(Dry) ,10,9,8,8

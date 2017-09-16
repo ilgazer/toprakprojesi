@@ -1,30 +1,30 @@
-﻿Buğday(Sulu) ,17,16,15,12
-Buğday(Kuru) ,14,13,12,10
-Mısır(Sulu) ,19,17,15,12
-Çeltik(Sulu) ,19,18,17,14
-Ayçiçeği(Sulu) ,18,12,10,8
-Patates(Sulu) ,17,15,13,12
-Patates(Kuru) ,12,10,8,7
-Ş. Pancarı(Sulu) ,18,17,16,14
-Ş. Pancarı(Kuru) ,11,10,9,8
-Bağ(Sulu) ,15,13,11,9
-Bağ(Kuru) ,10,8,7,7
-Meyve(Sulu) ,11,10,8,6
-Sebze(Sulu) ,15,13,11,9
-Kavak(Sulu) ,14,13,12,10
-K. Soğan(Sulu) ,15,13,12,10
-K. Soğan(Kuru) ,10,9,8,6
-Bostan(Sulu) ,16,15,13,11
-Bostan(Kuru) ,8,7,6,3
-Tütün(Trabzon)(Kuru) ,10,8,7,6
-Tütün(Samsun)(Kuru) ,5,4,3,3
-Kanola(Kuru) ,14,13,12,10
-Fındık(Kuru) ,20,18,16,14
+﻿Buğday(Wet) ,17,16,15,12
+Buğday(Dry) ,14,13,12,10
+Mısır(Wet) ,19,17,15,12
+Çeltik(Wet) ,19,18,17,14
+Ayçiçeği(Wet) ,18,12,10,8
+Patates(Wet) ,17,15,13,12
+Patates(Dry) ,12,10,8,7
+Ş. Pancarı(Wet) ,18,17,16,14
+Ş. Pancarı(Dry) ,11,10,9,8
+Bağ(Wet) ,15,13,11,9
+Bağ(Dry) ,10,8,7,7
+Meyve(Wet) ,11,10,8,6
+Sebze(Wet) ,15,13,11,9
+Kavak(Wet) ,14,13,12,10
+K. Soğan(Wet) ,15,13,12,10
+K. Soğan(Dry) ,10,9,8,6
+Orchard(Wet) ,16,15,13,11
+Orchard(Dry) ,8,7,6,3
+Tütün(Trabzon)(Dry) ,10,8,7,6
+Tütün(Samsun)(Dry) ,5,4,3,3
+Kanola(Dry) ,14,13,12,10
+Fındık(Dry) ,20,18,16,14
 Çay , ,24,22,20,18
-Sarımsak(Sulu) ,15,14,13,11
-Kenevir(Sulu) ,14,13,12,10
-Haşhaş(Sulu) ,9,8,7,6
-Narenciye(Kuru) ,18,16,14,12
-Kivi(Sulu) ,10,9,8,7
-Çayır(Kuru) ,21,20,18,17
-Zeytin(Kuru) ,10,9,8,6
+Sarımsak(Wet) ,15,14,13,11
+Kenevir(Wet) ,14,13,12,10
+Haşhaş(Wet) ,9,8,7,6
+Narenciye(Dry) ,18,16,14,12
+Kivi(Wet) ,10,9,8,7
+Çayır(Dry) ,21,20,18,17
+Zeytin(Dry) ,10,9,8,6
